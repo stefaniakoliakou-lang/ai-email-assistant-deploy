@@ -2,7 +2,7 @@ services:
   - type: web
     name: ai-email-app
     runtime: node
-    buildCommand: npm install --build-from-source
+    buildCommand: echo "No build needed"
     startCommand: node dist/index.cjs
     envVars:
       - key: NODE_ENV
