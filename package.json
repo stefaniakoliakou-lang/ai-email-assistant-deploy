@@ -1,0 +1,25 @@
+{
+  "name": "ai-email-assistant",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node dist/index.cjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.0.1",
+    "express-session": "^1.18.1",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.9.12",
+    "memorystore": "^1.6.7",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^9.0.3",
+    "ws": "^8.18.0",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

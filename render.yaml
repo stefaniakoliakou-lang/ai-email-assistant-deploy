@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-email-assistant
+    runtime: node
+    buildCommand: npm install
+    startCommand: node dist/index.cjs
+    envVars:
+      - key: NODE_ENV
+        value: production
